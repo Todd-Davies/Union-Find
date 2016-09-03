@@ -3,6 +3,11 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 
+/**
+ * Implementation of Union Find.
+ * 
+ * Based of off https://www.cs.princeton.edu/~rs/AlgsDS07/01UnionFind.pdf
+ */
 public class UnionFind<T> implements EquivalenceSetList<T> {
 
   private HashMap<T, Integer> locations;
